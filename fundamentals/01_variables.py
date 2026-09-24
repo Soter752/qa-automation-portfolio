@@ -22,3 +22,13 @@ print(2 ** 10)
 status_code = "200"
 print(status_code == 200)
 print(int(status_code) == 200)
+
+
+all_tests = 250
+passed = 231
+skipped = 4
+
+failed_tests = all_tests - passed - skipped
+pass_rate = passed / all_tests * 100
+print(failed_tests)
+print (pass_rate)
